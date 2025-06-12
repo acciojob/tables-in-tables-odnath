@@ -1,2 +1,30 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
 
-/* Your CSS Code here. */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+	
+td.black-cell {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
